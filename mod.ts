@@ -33,6 +33,14 @@ const ACTIVITIES: {
     id: "878067389634314250",
     name: "Doodle Crew",
   },
+  sketchyArtist: {
+    id: "879864070101172255",
+    name: "Sketchy Artist",
+  },
+  sketchHeads: {
+    id: "902271654783242291",
+    name: "Sketch Heads",
+  },
   ocho: {
     id: "832025144389533716",
     name: "Ocho (Requirido Level 1, 2 Boosts)",
@@ -149,10 +157,9 @@ slash.handle("invite", (d) => {
 
 slash.handle("changelog", (d) => {
   return d.reply(
-    `• Adicionado mais 2 Jogos (8s Ocho e Land-io)
-     • Adicionado Changelog
-     • Removido antigo Watch Together (YouTube Together)
-     • Removido Herobrine`,
+    `**CHANGELOG 09/04/2022**
+• Adicionado mais 2 Jogos (Sketch Heads & Sketchy Artist)
+• Removido Herobrine`,
      { ephemeral: true },
   );
 });
